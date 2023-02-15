@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.20>
 <Properties>
-  <View=160,-504,2631,1350,0.662058,22,189>
+  <View=160,-495,2631,1267,0.662058,22,120>
   <Grid=10,10,1>
   <DataSet=RF_Amp_Matching.dat>
   <DataDisplay=RF_Amp_Matching.dpl>
@@ -32,8 +32,6 @@
   <L L2 1 1420 330 -26 10 0 0 "47 nH" 1 "" 0>
   <GND * 5 1340 440 0 0 0 0>
   <GND *2 5 910 450 0 0 0 0>
-  <C C5 1 910 420 15 -20 0 1 "19.1 pF" 1 "" 0 "neutral" 0>
-  <L L5 1 990 330 -26 10 0 0 "6.11 nH" 1 "" 0>
   <L L6 1 710 330 -26 10 0 0 "22 nH" 1 "" 0>
   <L L7 1 610 330 -26 10 0 0 "36 nH" 1 "" 0>
   <L L8 1 510 330 -26 10 0 0 "30 nH" 1 "" 0>
@@ -61,6 +59,8 @@
   <SPfile X1 1 1130 330 -26 -59 0 0 "STS1_RF_Simulations/TQP7M9106.s2p" 1 "polar" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X2 1 1870 330 -26 -59 0 0 "STS1_RF_Simulations/LFCG-490+_Plus25degC.s2p" 1 "polar" 0 "linear" 0 "open" 0 "2" 0>
   <SPfile X3 1 1090 690 -26 -89 0 0 "STS1_RF_Simulations/F2972_RF2_ON_EN_1_VCTL_1_50Ohms.s3p" 1 "polar" 0 "linear" 0 "open" 0 "3" 0>
+  <C C5 1 910 420 15 -20 0 1 "18 pF" 1 "" 0 "neutral" 0>
+  <L L5 1 990 330 -26 10 0 0 "6 nH" 1 "" 0>
 </Components>
 <Wires>
   <1160 330 1200 330 "" 0 0 0 "">
