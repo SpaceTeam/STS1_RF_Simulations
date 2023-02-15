@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=-41,-20,1402,1134,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=RF_Si4463_Input_Matching.dat>
+  <DataDisplay=RF_Si4463_Input_Matching.sch>
+  <OpenDisplay=1>
+  <Script=RF_Si4463_Input_Matching.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 650 394 334 334 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "" "">
+	<"S[1,1]" #0000ff 0 3 0 0 0>
+  </Smith>
+  <Rect 80 401 493 331 3 #c0c0c0 1 00 1 0 1e+08 1e+09 1 -40 10 3.60698 1 -1 0.5 1 315 0 225 "" "" "" "">
+	<"Input_RL" #0000ff 0 3 0 0 0>
+	  <Mkr 4.35001e+08 412 -353 5 0 0>
+  </Rect>
+  <Rect 80 791 493 331 3 #c0c0c0 1 00 1 0 1e+08 1e+09 1 -1.1003 0.5 1.19061 1 -1 0.5 1 315 0 225 "" "" "" "">
+	<"Input_Imag" #0000ff 0 3 0 0 0>
+	<"Input_Real" #ff0000 0 3 0 0 0>
+	  <Mkr 4.35001e+08 382 -348 5 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
